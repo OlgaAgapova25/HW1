@@ -31,7 +31,7 @@ public class Task1Test {
         list1.add("11");
         int minLength = 2;
         List<String> result = new ArrayList<>();
-        result.add("1");
+        result.add("11");
         List<String> resultTest = Task1.filterStrings(list1, minLength);
         assertEquals(result, resultTest, "This list contains a string which doesn't pass minLength criteria");
 }
